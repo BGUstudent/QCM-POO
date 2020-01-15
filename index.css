@@ -1,0 +1,71 @@
+form{
+    padding: 2%;
+}
+html {
+    background: linear-gradient(rgb(195, 203, 209), rgb(152, 186, 202));
+}
+h1 {
+    text-align: center;
+}
+
+.answers {
+    font-size: 100%;
+    color: #000;
+}
+
+.poo{
+    color: #120026;
+    font-size: 100%;
+    font-family: lemon;
+    border-bottom: 2%;
+
+}
+.center {
+    padding: 5% 10%;
+}
+.global form {
+    margin: 2%;
+    margin-top: -5%;
+    border-radius: 10px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 15px rgb(114, 138, 150);
+}
+
+#result{
+    color: rgb(223, 0, 0);
+    font-size: 30px;
+}
+
+#score {
+    text-align: left;
+    color: rgb(0, 5, 49);
+    font-size: 20px;
+}
+
+#button {
+        margin-left: 43%;
+        cursor: default;
+        border-radius: 20% 20% 20% 20%;
+        text-align: center;
+        padding: 7px 20px;
+        font-size: 20px;
+        color: rgb(239, 245, 245);
+        font-weight: bold;
+        display: inline-block;
+        border-top: 1px solid #777;
+        width: 120px;
+        background: linear-gradient(#5F5F5F 0%, #404040 100%);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 8);
+        margin-bottom: 10px;
+}
+
+#button:hover {
+        background: linear-gradient(#5F5F5F 0%, #404040 100%);
+        border-top: 2px solid #fff;
+        text-shadow: 10 -1px 1px #000;
+}
+#button:active {
+        box-shadow: 0px 20px 10px -5px black;
+}
+
